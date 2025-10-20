@@ -1,9 +1,7 @@
 # CustomerExpenseChurn-py
-
-
+---
 # Smart Expenses + Feedback + Churn Prediction  Analyze customer spending, feedback sentiment, and churn risk with a Python-based interactive tool. Upload CSV data, run sentiment analysis, predict churn with ML, and generate smart insights &amp; visualizations.  Technologies: Python, Pandas, Matplotlib, Scikit-learn, TextBlob
-# Smart Expenses + Feedback + Churn Prediction Dashboard
-
+---
 ## Overview
 The **Smart Expenses + Feedback + Churn Prediction Dashboard** is a Python-based project that helps businesses analyze customer transactions, evaluate customer feedback sentiment, and predict churn risk. This tool allows users to upload customer data in CSV format and instantly generate actionable insights, visualizations, and predictions for better decision-making.
 
@@ -11,7 +9,9 @@ This project is ideal for:
 - **Students** learning data analysis and machine learning
 - **Portfolio projects** demonstrating Python and data visualization skills
 - **Small business owners** looking for insights on customer retention
-- 
+  
+  ---
+  
 ## Features
 
 ### 1. CSV File Upload
@@ -51,6 +51,8 @@ Generates **churn labels** using business rules:
   - Negative sentiment customers → improve service quality
   - General low-risk customers → maintain engagement
 
+---
+
 ## Technologies Used
 
 - **Python 3.x** – Core programming language
@@ -61,6 +63,13 @@ Generates **churn labels** using business rules:
 - **Scikit-learn** – Machine learning
 - **Google Colab** – File upload and interactive execution
 
+  ---
+## Preview
+
+Check on LinkedIn:
+https://www.linkedin.com/posts/ashok-s-844a46387_customer-churn-prediction-py-activity-7381551644859211776-J_6Q?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAF9fWTQBQNOw2vvDrC56K57letS6vXPi4nc&utm_campaign=share_via
+
+---
 ## CSV Format Example
 
 ```csv
@@ -68,3 +77,5 @@ customer_id,amount,category,feedback,rating,days_since_last_purchase
 1,250,Electronics,"Great product!",5,30
 2,120,Groceries,"Not satisfied",2,50
 3,300,Clothing,"Loved it",4,20
+
+---
