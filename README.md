@@ -77,5 +77,103 @@ customer_id,amount,category,feedback,rating,days_since_last_purchase
 1,250,Electronics,"Great product!",5,30
 2,120,Groceries,"Not satisfied",2,50
 3,300,Clothing,"Loved it",4,20
+```
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.See the license file for details.
+
+---
+
+## 💻 Installation & Execution
+
+Follow these steps to run the **CustomerExpenseChurn-py** project locally or on Google Colab:
+
+### 1. Download or Clone the Project
+
+You can either:
+
+* **Download ZIP:**
+
+  1. Go to [CustomerExpenseChurn-py GitHub](https://github.com/Ashok-777/CustomerExpenseChurn-py)
+  2. Click **Code → Download ZIP**
+  3. Extract the ZIP to a folder on your computer
+
+* **Or Clone with Git:**
+
+```bash
+git clone https://github.com/Ashok-777/CustomerExpenseChurn-py.git
+cd CustomerExpenseChurn-py
+```
+
+---
+
+### 2. Install Required Python Packages
+
+Make sure you have **Python 3.x** installed. Then, install dependencies using `pip`:
+
+```bash
+pip install pandas numpy matplotlib textblob scikit-learn
+```
+
+> ✅ Optional: If running in Google Colab, most libraries are pre-installed. Only `TextBlob` may need:
+
+```python
+!pip install textblob
+```
+
+---
+
+### 3. Run the Project
+
+You can run the Python script in multiple ways:
+
+* **From Command Line / Terminal:**
+
+```bash
+python CustomerExpenseChurn.py
+```
+
+* **From Google Colab:**
+
+1. Open Google Colab.
+2. Upload the project files.
+3. Run the cells sequentially.
+4. Upload your CSV file when prompted.
+
+The program will perform:
+
+* Customer feedback **sentiment analysis**
+* **Feature engineering** for churn prediction
+* **Random Forest** churn prediction
+* **Visualizations**: expenses by category, sentiment distribution, feature importance
+* **Smart insights & recommendations** for each customer
+
+---
+
+### 4. CSV File Format
+
+The input CSV should have the following columns:
+
+```csv
+customer_id,amount,category,feedback,rating,days_since_last_purchase
+1,250,Electronics,"Great product!",5,30
+2,120,Groceries,"Not satisfied",2,50
+3,300,Clothing,"Loved it",4,20
+```
+
+> ⚠️ Ensure proper formatting; missing columns may cause errors.
+
+---
+
+### 5. Optional: Run in an IDE
+
+You can also run the project in **PyCharm, VS Code, or Jupyter Notebook**:
+
+1. Open the project folder in the IDE
+2. Open `CustomerExpenseChurn.py`
+3. Run the script
+4. Upload CSV and view outputs
 
 ---
