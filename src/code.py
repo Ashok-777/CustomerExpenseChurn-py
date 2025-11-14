@@ -1,3 +1,5 @@
+# © Ashok-777
+# GitHub: https://github.com/Ashok-777
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -68,3 +70,5 @@ for _, row in summary.iterrows():
         print(f"ℹ️ Customer {row['customer_id']} shows negative feedback")
     else:
         print(f"✅ Customer {row['customer_id']} is healthy")
+# © Ashok-777
+# GitHub: https://github.com/Ashok-777
