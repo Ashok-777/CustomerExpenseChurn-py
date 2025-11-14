@@ -177,3 +177,7 @@ You can also run the project in **PyCharm, VS Code, or Jupyter Notebook**:
 4. Upload CSV and view outputs
 
 ---
+
+<p align="center">© Ashok-777 | Crafted with ❤️ and curiosity</p> 
+
+---
