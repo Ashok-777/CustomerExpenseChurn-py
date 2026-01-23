@@ -178,6 +178,8 @@ You can also run the project in **PyCharm, VS Code, or Jupyter Notebook**:
 
 ---
 
-<p align="center">© Ashok-777 | Crafted with ❤️ and curiosity</p> 
+<p align="center">
+  © <a href="https://github.com/Ashok-777" target="_blank">Ashok-777</a> | Crafted with ❤️ and curiosity
+</p>
 
 ---
